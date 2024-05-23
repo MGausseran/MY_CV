@@ -1,39 +1,133 @@
 body {
     background-color: #fff;
-    color: black
-}
-header {
-    display: inline-block;
-}
-header img {
-    border: solid 3px white;
-    border-radius: 50%;
-    width: 35%;
-    position: relative
-}
-#presentation {
-    position: absolute;
-    top: 55px;
-    left: 340px;
     color: black;
-    width: 70%;
+    margin: 0;
+    font-family: Arial;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-gap: 20px;
+}
+
+aside {
+    background-color: #7d3836;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 50px 20px;
+    background-color: #7d3836;
+    color: #fff
+}
+
+header img {
+    border: solid 8px white;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-right: 60px;
+    margin-left: 20px;
 }
 
 .experiences {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
 }
+
 .experiences article {
-    padding: 0px 50px;
-    padding-bottom: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
 }
-.soft_skills ul {
-    display: grid;
-    grid-template-columns: 15% 15% 15%;
-    grid-row-gap: 20px;
-    grid-column-gap: 0px;
-    padding-left: 60px;
-    padding-top: 10px;
-    padding-bottom: 10px
+
+.experiences article a:hover {
+    color: #b82621;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
     
 }
+
+.experiences h4 {
+    font-style: italic;
+    font-weight: 100
+}
+
+.experiences a {
+    text-decoration: none;
+    color: #5c110f
+}
+
+.soft_skills ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.soft_skills li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.soft_skills li:hover {
+    background-color: #5c110f;
+    color: white;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+h1 {
+    font-family: "Jost";
+}
+
+header h1 {
+    font-size: 55px;
+    margin-bottom: 0;
+}
+header h2 {
+    color: #fff
+}
+
+aside h1 {
+    font-family: "Jost";
+    font-size: 30px;
+}
+aside h2 {
+    font-family: "Jost";
+    font-size: 18px;
+    font-weight: bold;
+    
+    color: #fff
+    
+}
+
+#hard_skills p {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 100;
+    font-style: normal
+}
+
+aside p {
+    font-family: Arial;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 100
+}
+
+
+
+
