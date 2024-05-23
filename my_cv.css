@@ -1,0 +1,39 @@
+body {
+    background-color: #fff;
+    color: black
+}
+header {
+    display: inline-block;
+}
+header img {
+    border: solid 3px white;
+    border-radius: 50%;
+    width: 35%;
+    position: relative
+}
+#presentation {
+    position: absolute;
+    top: 55px;
+    left: 340px;
+    color: black;
+    width: 70%;
+}
+
+.experiences {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.experiences article {
+    padding: 0px 50px;
+    padding-bottom: 10px;
+}
+.soft_skills ul {
+    display: grid;
+    grid-template-columns: 15% 15% 15%;
+    grid-row-gap: 20px;
+    grid-column-gap: 0px;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px
+    
+}
